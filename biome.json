@@ -7,7 +7,11 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"includes": ["**/*.{js,ts,jsx,tsx,json,md}", "!src/components/ui"]
+		"includes": [
+			"**/*.{js,ts,jsx,tsx,json,md}",
+			"!src/components/ui",
+			"!src/routeTree.gen.ts"
+		]
 	},
 	"formatter": {
 		"enabled": true,
